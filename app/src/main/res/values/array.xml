@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="gender">
+        <item>Man</item>
+        <item>Woman</item>
+        <item>Other</item>
+    </array>
+
+    <array name="theme_array">
+        <item>Light</item>
+        <item>Dark</item>
+    </array>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="it.unimib.travelhub.ui.main.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_travelActivity"
+            app:destination="@id/travelActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="it.unimib.travelhub.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_travelActivity"
+            app:destination="@id/travelActivity" />
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/welcomeActivity"
+        android:name="it.unimib.travelhub.ui.welcome.WelcomeActivity"
+        android:label="WelcomeActivity" />
+    <activity
+        android:id="@+id/addTravelActivity"
+        android:name="it.unimib.travelhub.ui.travels.AddTravelActivity"
+        android:label="AddTravelActivity"
+        tools:layout="@layout/activity_add_travel"/>
+    <activity
+        android:id="@+id/travelActivity"
+        android:name="it.unimib.travelhub.ui.travels.TravelActivity"
+        android:label="activity_travel"
+        tools:layout="@layout/activity_travel" >
+        <argument
+            android:name="travel"
+            app:argType="it.unimib.travelhub.model.Travels" />
+    </activity>
+
+</navigation>

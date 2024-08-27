@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home_nav"/>
+
+<!--    <item-->
+<!--        android:id="@+id/communityFragment"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/baseline_groups_24"-->
+<!--        android:title="@string/community_nav"/>-->
+
+    <item
+        android:id="@+id/mapFragment_button"
+        android:enabled="true"
+        android:icon="@drawable/baseline_map_24"
+        android:title="@string/map_nav"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/baseline_person_24"
+        android:title="@string/profile_nav"/>
+
+
+</menu>

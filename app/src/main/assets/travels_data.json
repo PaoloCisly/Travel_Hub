@@ -1,0 +1,151 @@
+{
+  "travelsList": [
+    {
+      "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+      "destinations": [
+        {
+          "dateFrom": "01/01/2024 09:30",
+          "dateTo": "01/01/2024 18:30",
+          "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+          "location": "Milano"
+        },
+        {
+          "dateFrom": "02/01/2024 05:30",
+          "dateTo": "03/01/2024 22:30",
+          "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+          "location": "Parigi"
+        },
+        {
+          "dateFrom": "03/01/2024 07:00",
+          "dateTo": "05/01/2024 16:30",
+          "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+          "location": "Berlino"
+        },
+        {
+          "dateFrom": "05/01/2024 22:30",
+          "dateTo": "07/01/2024 19:15",
+          "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+          "location": "Amsterdam"
+        }
+      ],
+      "endDate": "07/01/2024 00:00",
+      "id": 967944550,
+      "image": "url",
+      "members": [
+        {
+          "id": "CO1KWBzCi9P8NX0CO3h4BUFwSgR2",
+          "role": "MEMBER"
+        },
+        {
+          "id": "YsFsAeSDcxNTWhKavdETgw5CuPa2",
+          "role": "SUPPORTER"
+        },
+        {
+          "id": "d1VZw72r1aSyrXM7ntFTFhxQcJo2",
+          "role": "CREATOR"
+        }
+      ],
+      "startDate": "01/01/2024 00:00",
+      "title": "PASSATO"
+    },
+
+    {
+      "description": "Lorem Ipsumun testo campione.",
+      "destinations": [
+        {
+          "dateFrom": "01/01/2025 09:30",
+          "dateTo": "01/01/2025 18:30",
+          "description": "Lorem Ipsum è un testo",
+          "location": "Milano"
+        },
+        {
+          "dateFrom": "02/01/2025 05:30",
+          "dateTo": "03/01/2025 22:30",
+          "description": "Lorem Ipsum è un .",
+          "location": "Parigi"
+        },
+        {
+          "dateFrom": "03/01/2025 07:00",
+          "dateTo": "05/01/2025 16:30",
+          "description": "Lorem Ipsum gnaposto standard serine.",
+          "location": "Berlino"
+        },
+        {
+          "dateFrom": "05/01/2025 22:30",
+          "dateTo": "07/01/2025 19:15",
+          "description": "Lorem Ipsum è un testoo il testo segnapne.",
+          "location": "Amsterdam"
+        }
+      ],
+      "endDate": "07/01/2025 00:00",
+      "id": 167944550,
+      "image": "url",
+      "members": [
+        {
+          "id": "CO1KWBzCi9P8NX0CO3h4BUFwSgR2",
+          "role": "MEMBER"
+        },
+        {
+          "id": "YsFsAeSDcxNTWhKavdETgw5CuPa2",
+          "role": "SUPPORTER"
+        },
+        {
+          "id": "d1VZw72r1aSyrXM7ntFTFhxQcJo2",
+          "role": "CREATOR"
+        }
+      ],
+      "startDate": "01/01/2025 00:00",
+      "title": "FUTURO"
+    },
+
+    {
+      "description": "Lorem Ipsum assembe.",
+      "destinations": [
+        {
+          "dateFrom": "01/06/2024 09:30",
+          "dateTo": "01/06/2024 18:30",
+          "description": "Lorem Ign per preparare un testo campione.",
+          "location": "Milano"
+        },
+        {
+          "dateFrom": "02/06/2024 05:30",
+          "dateTo": "03/06/2024 22:30",
+          "description": "Lorearattesto campione.",
+          "location": "Parigi"
+        },
+        {
+          "dateFrom": "03/06/2024 07:00",
+          "dateTo": "10/06/2024 16:30",
+          "description": "Lorem Ips li assemblò ppione.",
+          "location": "Berlino"
+        },
+        {
+          "dateFrom": "05/01/2024 22:30",
+          "dateTo": "25/06/2024 19:15",
+          "description": "Lorem Ipso il testrare un testo campione.",
+          "location": "Amsterdam"
+        }
+      ],
+      "endDate": "25/06/2024 00:00",
+      "id": 267944550,
+      "image": "url",
+      "members": [
+        {
+          "id": "CO1KWBzCi9P8NX0CO3h4BUFwSgR2",
+          "role": "MEMBER"
+        },
+        {
+          "id": "YsFsAeSDcxNTWhKavdETgw5CuPa2",
+          "role": "SUPPORTER"
+        },
+        {
+          "id": "d1VZw72r1aSyrXM7ntFTFhxQcJo2",
+          "role": "CREATOR"
+        }
+      ],
+      "startDate": "01/06/2024 00:00",
+      "title": "ATTUALE"
+    }
+
+  ]
+}

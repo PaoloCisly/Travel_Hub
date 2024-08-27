@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_edit">
+
+
+    <fragment
+        android:id="@+id/navigation_edit"
+        android:name="it.unimib.travelhub.ui.travels.NewTravelFragment"
+        android:label="@string/edit"
+        tools:layout="@layout/fragment_edit_travel" >
+        <action
+            android:id="@+id/action_navigation_edit_to_editTravelSegment"
+            app:destination="@id/newTravelSegment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_map_preview"
+        android:name="it.unimib.travelhub.ui.travels.MapPreviewFragment"
+        tools:layout="@layout/fragment_map_preview" />
+    <fragment
+        android:id="@+id/newTravelSegment"
+        android:name="it.unimib.travelhub.ui.travels.NewTravelSegment"
+        android:label="fragment_edit_travel_segment"
+        tools:layout="@layout/fragment_edit_travel_segment" >
+        <action
+            android:id="@+id/action_editTravelSegment_self"
+            app:destination="@id/newTravelSegment" />
+    </fragment>
+</navigation>

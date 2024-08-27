@@ -1,0 +1,132 @@
+<resources>
+
+    <string name="app_name" translatable="false">Travel Hub</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="app_login_pwd_hint" translatable="false">Password</string>
+    <string name="map_nav">Map</string>
+    <string name="profile_nav">Profile</string>
+    <string name="home_nav" translatable="false">Home</string>
+
+    <string name="login">Login</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="txt_or">or</string>
+    <string name="google_login">Login with Google</string>
+    <string name="register">Register</string>
+    <string name="new_account">New to Travel Hub?</string>
+
+    <string name="error_email">Email format not valid</string>
+    <string name="check_login_data_message">Data may be wrong</string>
+
+    <string name="pwd_error_numberOfcharacters">Password must be 6 characters or more</string>
+    <string name="pwd_error_capitalLetter">The password must contain at least one capital letter</string>
+    <string name="pwd_error_lowerCaseLetter">The password must contain at least one lowercase letter</string>
+    <string name="pwd_error_number">The password must contain at least one number</string>
+    <string name="pwd_error_specialCharacter">The password must contain at least one special character</string>
+    <string name="pwd_valid">Password is valid</string>
+    <string name="mail_valid">Mail is valid</string>
+    <string name="error_login_password_message">The password is invalid</string>
+    <string name="error_login_user_message">There is no user record corresponding to this identifier</string>
+    <string name="unexpected_error" translatable="false">unexpected error</string>
+    <string name="error_user_collision_message">This email address is already in use by another account</string>
+    <string name="error_empty_username">Empty username</string>
+    <string name="error_no_google_account_found_message">No Google accounts have been found</string>
+    <string name="error_username_not_available">Username already taken</string>
+
+    <string name="username" translatable="false">Username</string>
+    <string name="user_name">Name</string>
+    <string name="user_surname">Surname</string>
+    <string name="user_birth">Birth</string>
+
+
+    <!-- Travel -->
+
+    <string name="travel_tab_dashboard">Dashboard</string>
+    <string name="travel_tab_itinerary">Itinerary</string>
+
+    <string name="travel_no_description">Write a description of your trip. Tell us something about it!</string>
+    <string name="travel_edit">Edit Travel</string>
+    <string name="travel_delete">Delete Travel</string>
+    <string name="travel_departure">Departure</string>
+    <string name="travel_duration">Duration</string>
+    <string name="travel_progress">Progress</string>
+    <string name="travel_participants">Participants</string>
+
+    <string name="travel_segment_number">Destinations</string>
+    <string name="travel_segment_no_date">No date</string>
+
+
+    <string name="error_delete_participant">Error deleting participant, cannot delete the travel Creator</string>
+    <string name="saveSettings">Save Settings</string>
+
+    <!-- Sync Preferences -->
+    <string name="return_to_the_previous_screen">Return to the previous screen</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="title">Title*</string>
+    <string name="to_need">To*</string>
+    <string name="save">Save</string>
+    <string name="from_need">From*</string>
+    <string name="description">Description</string>
+    <string name="title_activity_add_travel" translatable="false">AddTravel</string>
+    <string name="travel_images">Travel images</string>
+    <string name="edit">Edit</string>
+    <string name="map_preview">Map preview</string>
+
+    <string name="other_travels">Other Travels</string>
+
+    <string name="destination">Destination</string>
+    <string name="add_destination">Add destination</string>
+    <string name="title_empty_error">Empty title</string>
+    <string name="date_empty_error">Date is missing</string>
+    <string name="departure_empty_error">Empty departure location</string>
+    <string name="destination_error">Empty destination location</string>
+    <string name="departure_needed">Departure*</string>
+    <string name="departure">Departure</string>
+    <string name="date_over_limit">This date exceeds the travel end date</string>
+    <string name="date_under_limit">This date is before the travel start date</string>
+
+    <string name="travel_added_success">Travel added successfully</string>
+    <string name="travel_deleted_success">Travel deleted successfully</string>
+
+    <!--Personal Information-->
+    <string name="personal_info_saved">Personal information saved correctly</string>
+    <string name="username_error">Username is required</string>
+    <string name="change_profile_photo">Change profile photo</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="error_upload_image">Error while uploading image</string>
+    <string name="cannot_remove_creator">You can not remove Creator of the Travel</string>
+    <string name="select_location">Select Location</string>
+
+    <!--Design-->
+    <string name="settings_btn_desc">Settings</string>
+    <string name="star_desc">Creator</string>
+    <string name="add">Add</string>
+
+    <string name="ongoing_travels">Ongoing Travels</string>
+    <string name="terminated_travels">Past Travels</string>
+    <string name="no_travels_msg">It appears you have no other trips planned. Create a new one!</string>
+    <string name="go_to_travel">Open Travel</string>
+    <string name="create_travel">Create Travel</string>
+    <string name="see_all">See All</string>
+    <string name="status_ongoing">Ongoing</string>
+    <string name="status_future">Scheduled</string>
+    <string name="travels_number">Travels</string>
+    <string name="app_logo" translatable="false">App logo</string>
+    <string name="background">background</string>
+    <string name="travel_status">Travel status</string>
+    <string name="travel_updated_success_msg">Travel updated successfully</string>
+    <string name="edit_dialog_msg">To edit trip items, press and hold the field you want to edit.</string>
+    <string name="delete_travel_dialog_msg">Are you sure you want to cancel your trip?</string>
+    <string name="select_start_date_error">Select a start date</string>
+    <string name="select_end_date_error">Select a end date</string>
+    <string name="select_location_error">Enter a location</string>
+    <string name="more_button">More button</string>
+    <string name="add_participants">Add participant</string>
+    <string name="return_string">Return</string>
+    <string name="create_destination">Create destination</string>
+    <string name="point" translatable="false">point</string>
+    <string name="remove">Remove</string>
+
+</resources>
